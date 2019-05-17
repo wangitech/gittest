@@ -66,3 +66,4 @@ if __name__ == '__main__':
 	logging.basicConfig(filename='SynDirTool.log', level=logging.INFO)
 	tool = SynDirTool(srcdir,descdir)
 	count += tool.synDir()
+	print(count)
